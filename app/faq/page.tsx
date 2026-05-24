@@ -6,6 +6,63 @@ export const metadata: Metadata = {
   description: "Pertanyaan umum seputar preorder, pengiriman, pembayaran, dan produk D'Mimah Donuts.",
 };
 
+const products = [
+  { 
+    name: 'Domini', 
+    description: '...', 
+    price: '12 pcs - Rp 60.000', 
+    emoji: '🍩', 
+    image: '/images/domini1.jpg',  // tambahkan ini
+    tag: 'Best Seller', 
+    tagColor: 'bg-[#D77FA1]' 
+  },
+  { 
+    name: 'DonPiz', 
+    description: '...', 
+    price: '12 pcs - Rp 70.000', 
+    emoji: '🍕',
+    image: '/images/donpiz1.jpg',  // tambahkan ini
+    tag: 'Savory', 
+    tagColor: 'bg-[#A07898]' 
+  },
+  { 
+    name: 'Big Donut', 
+    description: '...', 
+    price: '6 pcs - Rp 50.000', 
+    emoji: '🎉',
+    image: '/images/bigdonut1.jpg'  // tambahkan ini
+  },
+  { 
+    name: 'Bomboloni', 
+    description: '...', 
+    price: '8 pcs Rp 40k / 10 pcs Rp 50k', 
+    emoji: '🧁',
+    image: '/images/bomboloni1.jpg',  // tambahkan ini
+    tag: 'Filling', 
+    tagColor: 'bg-[#b5a0d8]' 
+  },
+  { 
+    name: 'Fudgy Brownies', 
+    description: '...', 
+    price: 'Hubungi kami', 
+    emoji: '🍫',
+    image: '/images/fudgy1.jpg',  // tambahkan ini
+    tag: 'Ship Nationwide', 
+    tagColor: 'bg-[#6B4C5E]' 
+  },
+  { 
+    name: 'Rollcake', 
+    description: '...', 
+    price: 'Hubungi kami', 
+    emoji: '🎂',
+    image: '/images/rollcake1.jpg'  // tambahkan ini
+  },
+  // produk tanpa gambar tetap pakai emoji sebagai fallback
+  { name: 'Brownies Kukus', description: 'Steamed brownies with a moist, rich texture.', price: 'Hubungi kami', emoji: '🍫' },
+  { name: 'Bolu Tape', description: 'Soft sponge cake made with traditional tape fermented cassava.', price: 'Hubungi kami', emoji: '🍰' },
+  { name: 'Bolu Pisang', description: 'Moist banana sponge cake with a warm homemade aroma.', price: 'Hubungi kami', emoji: '🍌' },
+];
+
 const faqs = [
   {
     category: 'Preorder',
