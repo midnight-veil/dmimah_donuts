@@ -1,6 +1,5 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
-ENV NODE_ENV=production
 
 # Install deps (including dev deps for build)
 COPY package*.json ./
