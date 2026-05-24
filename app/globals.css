@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Fredoka:wght@300;400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+@import "tailwindcss";
+
+:root {
+  --pink-primary: #D77FA1;
+  --pink-soft: #E6B2C6;
+  --pink-bg: #FEF6FB;
+  --blue-accent: #D6E5FA;
+  --cream: #FFF9F5;
+  --text-dark: #2D1B2E;
+  --text-mid: #6B4C5E;
+  --text-light: #A07898;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--pink-bg);
+  color: var(--text-dark);
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-logo {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.font-heading {
+  font-family: 'Fredoka', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--pink-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--pink-soft);
+  border-radius: 10px;
+}
+
+.glass {
+  background: rgba(255, 246, 251, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #D77FA1, #E6B2C6, #b5a0d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
