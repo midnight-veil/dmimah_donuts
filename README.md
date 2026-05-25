@@ -47,3 +47,10 @@ Contoh periksa script di `package.json`:
 
 Jika mau, saya bisa commit perubahan ini ke branch baru dan push, atau buat ZIP berisi perubahan. Beri tahu preferensi Anda.
 
+## Tim Behind
+-Muhammad Ariel Eka P (23.11.5754)
+-Muhammad 			  (23.11.5786)
+-Bagas Ridho Ilhami	  (23.11.5781)
+-Rayhan Ramadhany     (23.11.5792)
+-Febrio Pasha A       (23.11.5763)
+-Harpan Esa Sairi     (23.11.5766)
